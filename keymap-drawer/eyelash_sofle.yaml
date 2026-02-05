@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - '&command_X'
+  - $$mdi:backspace-reverse-outline$$
   - '&command_V'
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
