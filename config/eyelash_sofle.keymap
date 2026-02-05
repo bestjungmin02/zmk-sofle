@@ -68,7 +68,11 @@
         command_A: command_A {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_COMMAND &kp A>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND>,
+                <&macro_press>,
+                <&kp A>;
 
             label = "COMMAND_A";
         };
@@ -76,7 +80,11 @@
         command_Z: command_Z {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_COMMAND &kp Z>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND>,
+                <&macro_press>,
+                <&kp Z>;
 
             label = "COMMAND_Z";
         };
@@ -84,7 +92,11 @@
         command_X: command_X {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_COMMAND &kp X>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND>,
+                <&macro_press>,
+                <&kp X>;
 
             label = "COMMAND_X";
         };
@@ -92,7 +104,11 @@
         command_V: command_V {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_COMMAND &kp V>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND>,
+                <&macro_press>,
+                <&kp V>;
 
             label = "COMMAND_V";
         };
