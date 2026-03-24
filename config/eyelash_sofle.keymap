@@ -158,15 +158,15 @@
 
         layer_3 {
             bindings = <
-&kp F1     &kp F2        &kp F3        &kp F4        &kp F5  &kp F6    &trans  &kp F7  &kp F8  &kp F9        &kp F10   &kp F11           &kp F12
-&kp TILDE  &trans        &trans        &trans        &trans  &trans    &trans  &trans  &trans  &trans        &trans    &kp PLUS          &kp EQUAL
-&trans     &trans        &trans        &trans        &trans  &trans    &trans  &trans  &trans  &trans        &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &trans        &trans        &trans        &trans  &trans    &trans  &trans  &trans  &kp UP_ARROW  &trans    &trans            &trans
-&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans    &trans  &trans  &trans  &kp LEFT      &kp DOWN  &kp RIGHT_ARROW
+&kp F1     &kp F2        &kp F3        &kp F4        &kp F5  &kp F6    &command_X  &kp F7  &kp F8  &kp F9        &kp F10   &kp F11           &kp DEL
+&kp TILDE  &trans        &trans        &trans        &trans  &trans    &command_V  &trans  &trans  &trans        &trans    &kp PLUS          &kp EQUAL
+&trans     &trans        &trans        &trans        &trans  &trans    &command_Z  &trans  &trans  &trans        &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &trans        &trans        &trans        &trans  &trans    &command_A  &trans  &trans  &kp UP_ARROW  &trans    &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans    &trans      &trans  &trans  &kp LEFT      &kp DOWN  &kp RIGHT_ARROW
             >;
 
             display-name = "layer3";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         layer_4 {
